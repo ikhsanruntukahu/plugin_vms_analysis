@@ -1,17 +1,17 @@
 [general]
 name=VMS Analysis
 qgisMinimumVersion=3.22
-description=Analisis data Vessel Monitoring System (Spottrace, Nemo, dll): hitung titik per Jalur Penangkapan/WPP/Grid, Kernel Density, dan pembersihan titik daratan.
-about=Plugin VMS Analysis dikembangkan oleh M. Ikhsan Z. Runtukahu untuk memudahkan analisis data hasil implementasi teknologi VMS/Tracker pada nelayan skala kecil. Fitur: hitung jumlah titik per jalur penangkapan, WPP, dan grid fishing ground; analisis Kernel Density; pembersihan titik di daratan atau dekat daratan. Input dapat berupa layer titik QGIS atau file Excel/CSV.
+description=Analysis of Vessel Monitoring System (VMS) data (Spottrace, Nemo, etc.): count points per fishing zone / fisheries management area (WPP) / grid, Kernel Density, and land-point cleaning.
+about=The VMS Analysis plugin was developed by M. Ikhsan Z. Runtukahu to simplify the analysis of data from VMS/tracker deployments among small-scale fishers. Features: count points per fishing zone, fisheries management area (WPP), and fishing ground grid; Kernel Density analysis; removal of points on land or close to land. Input can be a QGIS point layer or an Excel/CSV file.
 version=0.1.0
 author=Muhammad Ikhsan Z. Runtukahu
 email=ikhsanruntukahu4@gmail.com
 tracker=https://github.com/ikhsanruntukahu/plugin_vms_analysis/issues
-repository=https://github.com/ikhsanruntukahu/plugin_vms_analysis/issues
-homepage=https://github.com/ikhsanruntukahu/plugin_vms_analysis/issues
+repository=https://github.com/ikhsanruntukahu/plugin_vms_analysis
+homepage=https://github.com/ikhsanruntukahu/plugin_vms_analysis
 tags=vms,fisheries,kernel density,wpp,spottrace,nemo
 category=Vector
-icon=icon.svg
+icon=icon.png
 experimental=True
 deprecated=False
-changelog=0.1.0 - Rilis awal (eksperimental)
+changelog=0.1.0 - Initial release (experimental)
